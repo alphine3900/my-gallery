@@ -5,7 +5,7 @@ from django.db import models
 class Location(models.Model):
     name = models.CharField(max_length=100)
 
-    def save_location(self):
+    def save_location (self):
         self.save()
 
     def delete_location(self):
