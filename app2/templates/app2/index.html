@@ -2,13 +2,17 @@
 {%block content%}
 
 {%for result in results%}
- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<div class="container-fluid">
+
+ <div class="row main">
+     <div class="col-md-12">
      <a href=""  data-bs-toggle="modal" data-bs-target="#results{{result.id}}">
          {% if result.image %}
-               <img id="img"style="width:40%;height:40%" src="{{result.image.url}}" class="img-responsive" alt="Image">
+               <img id="img" style="width:100%;height:35vh" src="{{result.image.url}}" class="img-responsive" alt="Image">
 
-{% endif %}
+            {% endif %}
     </a>
+</div>
  </div>
 
 <div class="modal fade"  id="results{{result.id}}">
@@ -17,7 +21,7 @@
             <div class="modal-body">
                 <h1>{{result.name}}</h1>
    {% if result.image %}
-               <img id="im" style="width:40%;height:40%" src="{{result.image.url}}" class="img-responsive" alt="Image">
+               <img  style="width:100%;height:40%" src="{{result.image.url}}" class="img-responsive" alt="Image">
 
 {% endif %}
                 <p>{{result.description}}</p>
@@ -39,16 +43,7 @@
 </div>
 
 <script>function Copy(x){navigator.clipboard.writeText(x)}</script>
+</div>
 {%endfor%}
 
 {%endblock%}
-<style>
-
-    #img{
-    display:flex;
-    }
-    .modal fade{
-    background-color:blue;
-    }
-
-</style>
