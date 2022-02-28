@@ -1,4 +1,16 @@
-#img{
-display: flex;
 
+.main{
+    float:left;
+   margin: 3px;
+  width:30%;
+  
 }
+body{
+    background-color: cadetblue;
+}
+.navbar{
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
