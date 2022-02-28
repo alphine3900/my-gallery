@@ -31,14 +31,10 @@ This is my gallery website where you can view my favorite photos and add image a
 * Python 3.8
 * Django 
 * PostgreSQL 11.5
-* SQLAlchemy
 * HTML5  
 * CSS3
 * Javascript
-* Bootstrap 4.0
-* Font Awesome 5.8.2
-* jQuery 3.4.1
-* Google Font API
+* Bootstrap 5.0
 
 ## Requirements
 * This program requires python3.+ (and pip) installed,
