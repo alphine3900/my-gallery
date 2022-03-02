@@ -3,7 +3,7 @@
 ####  My Gallery web application.
 
 ## Live Site link
-You can view the live application by following this [link]().
+You can view the live application by following this [link](https://alvo-gallery.herokuapp.com/).
 
 ####  User view
 * User can view the photos posts on the site
